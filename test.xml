@@ -1,0 +1,70 @@
+<weather>
+    <date value="2021-01-01">
+        <city>
+            <name>
+                Dearborn
+            </name>
+            <temperature>
+                24
+            </temperature>
+        </city>
+        <city>
+            <name>
+                Detroit
+            </name>
+            <temperature>
+                20
+            </temperature>
+        </city>
+        <city>
+            <name>
+                Ann Arbor
+            </name>
+            <temperature>
+                28
+            </temperature>
+        </city>
+        <city>
+            <name>
+                Flint
+            </name>
+            <temperature>
+                26
+            </temperature>
+        </city>
+    </date>
+    <date value="2021-01-02">
+        <city>
+            <name>
+                Dearborn
+            </name>
+            <temperature>
+                22
+            </temperature>
+        </city>
+        <city>
+            <name>
+                Detroit
+            </name>
+            <temperature>
+                17
+            </temperature>
+        </city>
+        <city>
+            <name>
+                Ann Arbor
+            </name>
+            <temperature>
+                25
+            </temperature>
+        </city>
+        <city>
+            <name>
+                Flint
+            </name>
+            <temperature>
+                21
+            </temperature>
+        </city>
+    </date>
+</weather>
