@@ -47,11 +47,12 @@ public class Parser {
 						Node city = cityList.item(j);
 						if (city.getNodeType() == Node.ELEMENT_NODE) {
 							Element cityElement = (Element) city;
-							sum += Float.parseFloat(cityElement.getElementsByTagName("temperature").item(0).getTextContent());
+							sum += Float.parseFloat(cityElement.getElementsByTagName("temperature").item(0)
+									.getTextContent());
 						}
 					}
 					float averageTemp = sum / cityList.getLength();
-					System.out.println(dateElement.getAttribute("value") +"'s average temperature : " + averageTemp);
+					System.out.println(dateElement.getAttribute("value") + "'s average temperature : " + averageTemp);
 
 				}
 			}
@@ -92,7 +93,7 @@ public class Parser {
 				for (int i = 0; i < mesurements.size(); i++) {
 					sum = sum + mesurements.get(i);
 				}
-				System.out.println(date + "'s average temperature : " + sum/mesurements.size());
+				System.out.println(date + "'s average temperature : " + sum / mesurements.size());
 			}
 		}
 
